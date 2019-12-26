@@ -124,6 +124,7 @@ LOGGING = {
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
+            'level':'INFO',
         },
         'file':{
             'class': 'logging.FileHandler',
