@@ -10,18 +10,13 @@ ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
 RUN apt-get update
-
 RUN apt-get install -y python3-pip
 RUN apt-get install -y python3-distutils
 
 
 RUN apt-get install -y \
     git \
-    python3-pip \
-    cmake
-
-
-RUN apt-get install -y \
+    cmake \
     autoconf \
     autotools-dev \
     vim \
@@ -43,12 +38,8 @@ RUN chmod +x geckodriver
 RUN mv geckodriver /usr/local/bin/
 RUN echo "y" | apt install xvfb
 
-
-RUN set -e
-RUN echo "Starting X virtual framebuffer (Xvfb) in background..."
-RUN Xvfb -ac :99 -screen 0 1280x1024x16 > /dev/null 2>&1 &
-RUN export DISPLAY=:99
-RUN exec "$@"
+COPY ./script.sh /scripts/
+ENV DISPLAY=:10
 
 WORKDIR /src/
 USER $UNAME

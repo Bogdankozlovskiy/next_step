@@ -1,2 +1,4 @@
 src/.ipynb_checkpoints
 src/__pycache__
+src/DJlogs.log
+src/geckodriver.log
