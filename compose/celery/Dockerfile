@@ -39,7 +39,7 @@ RUN mv geckodriver /usr/local/bin/
 RUN echo "y" | apt install xvfb
 
 COPY ./script.sh /scripts/
-ENV DISPLAY=:10
+ENV DISPLAY=:0
 
 WORKDIR /src/
 USER $UNAME

@@ -58,18 +58,19 @@ class VideoTestCase(TestCase):
 
 class MySelenium(TestCase):
     def setUp(self):
+        super().setUp()
         self.selenium = WebDriver()
-        #self.selenium.implicitly_wait(10)
+        self.selenium.implicitly_wait(10)
+        self.live_server_url = 'http://127.0.0.1:8000/'
 
-    #def tearDownClass(self):
-    #    super().tearDownClass()
-    #    self.selenium.quit()
+    def tearDown(self):
+        super().tearDown()
+        self.selenium.quit()
 
     def test_selenium(self):
-        pass
-        #self.selenium.get('%s%s'%(self.live_server_url, '/admin/login/'))
-        #username_input = self.selenium.find_element_by_name('username')
-        #username_input.send_keys('bogdan')
-        #password_input = self.selenium.find_element_by_name('password')
-        #password_input.send_keys('gd0d469s')
-        #self.selenium.find_element_by_xpath('//input[@value="Войти"]').click()
+        self.selenium.get(self.live_server_url + 'admin/login/')
+        username_input = self.selenium.find_element_by_name('username')
+        username_input.send_keys('bogdan')
+        password_input = self.selenium.find_element_by_name('password')
+        password_input.send_keys('gd0d469s')
+        self.selenium.find_element_by_xpath('//input[@value="Войти"]').click()
