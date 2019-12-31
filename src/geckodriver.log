@@ -608,3 +608,195 @@ Exiting due to channel error.
 1577447167622	Marionette	INFO	Listening on port 42373
 1577447167671	Marionette	WARN	TLS certificate errors will be ignored for this session
 1577447168145	Marionette	INFO	Stopped listening on port 42373
+1577792577683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiYKWEv"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1577792804305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeOzDs7"
+1577792804731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577792804732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577792804732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577792804732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:57): LIBDBUSMENU-GLIB-WARNING **: 11:46:45.513: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577792806298	Marionette	INFO	Listening on port 41171
+1577792806314	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577792806657	Marionette	INFO	Stopped listening on port 41171
+1577792832670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesQeVc3"
+1577792833096	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577792833096	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577792833096	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577792833096	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:278): LIBDBUSMENU-GLIB-WARNING **: 11:47:13.834: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577792834626	Marionette	INFO	Listening on port 36107
+1577792834678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577792834841	Marionette	INFO	Stopped listening on port 36107
+1577792890875	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEf3hBX"
+1577792891302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577792891302	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577792891303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577792891303	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:496): LIBDBUSMENU-GLIB-WARNING **: 11:48:12.041: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577792892824	Marionette	INFO	Listening on port 37069
+1577792892883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577792893170	Marionette	INFO	Stopped listening on port 37069
+1577793270064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefPPtOe"
+1577793270481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577793270481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577793270481	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577793270482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:717): LIBDBUSMENU-GLIB-WARNING **: 11:54:31.240: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577793271986	Marionette	INFO	Listening on port 41811
+1577793272071	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577793272351	Marionette	INFO	Stopped listening on port 41811
+1577793410485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4nqj4f"
+1577793410900	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577793410901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577793410901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577793410901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:948): LIBDBUSMENU-GLIB-WARNING **: 11:56:51.687: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577793412457	Marionette	INFO	Listening on port 41517
+1577793412493	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577793412783	Marionette	INFO	Stopped listening on port 41517
+1577793433770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefUmR89"
+1577793434188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577793434188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577793434188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577793434188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:1170): LIBDBUSMENU-GLIB-WARNING **: 11:57:14.953: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577793435864	Marionette	INFO	Listening on port 41013
+1577793435881	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577793436167	Marionette	INFO	Stopped listening on port 41013
+1577793475461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek1UJHy"
+1577793475880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577793475880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577793475880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577793475880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:1386): LIBDBUSMENU-GLIB-WARNING **: 11:57:56.612: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577793477405	Marionette	INFO	Listening on port 40791
+1577793477469	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577793482749	Marionette	INFO	Stopped listening on port 40791
+1577794038374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5vuqnk"
+1577794038809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577794038809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577794038809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577794038809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:1607): LIBDBUSMENU-GLIB-WARNING **: 12:07:19.591: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577794040497	Marionette	INFO	Listening on port 35207
+1577794040581	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577794045865	Marionette	INFO	Stopped listening on port 35207
+1577794180889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilen6Qjhc"
+1577794181307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577794181307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577794181307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577794181307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:1826): LIBDBUSMENU-GLIB-WARNING **: 12:09:42.054: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577794182939	Marionette	INFO	Listening on port 40981
+1577794182996	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577794183208	Marionette	INFO	Stopped listening on port 40981
+1577794212139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilep5YWsv"
+1577794212562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577794212562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577794212562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577794212562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:2047): LIBDBUSMENU-GLIB-WARNING **: 12:10:13.285: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577794214057	Marionette	INFO	Listening on port 38299
+1577794214153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577794214365	Marionette	INFO	Stopped listening on port 38299
+1577794230222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexGJreB"
+1577794230642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577794230642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577794230642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577794230642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:2269): LIBDBUSMENU-GLIB-WARNING **: 12:10:31.377: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577794232192	Marionette	INFO	Listening on port 45849
+1577794232230	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577794232446	Marionette	INFO	Stopped listening on port 45849
+1577794266412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJIZqld"
+1577794266828	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577794266828	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577794266828	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577794266828	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:2491): LIBDBUSMENU-GLIB-WARNING **: 12:11:07.586: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577794268392	Marionette	INFO	Listening on port 34219
+1577794268419	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577794268633	Marionette	INFO	Stopped listening on port 34219
+1577794305708	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0AoJ5x"
+1577794306128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577794306128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577794306128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577794306128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:2713): LIBDBUSMENU-GLIB-WARNING **: 12:11:46.861: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577794307756	Marionette	INFO	Listening on port 45239
+1577794307816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577794308049	Marionette	INFO	Stopped listening on port 45239
+1577799715936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevvQy5k"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1577799741560	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0InLqO"
+1577799742005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577799742005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577799742005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577799742005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:85): LIBDBUSMENU-GLIB-WARNING **: 13:42:22.777: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577799743697	Marionette	INFO	Listening on port 37103
+1577799743769	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577799744175	Marionette	INFO	Stopped listening on port 37103
+
+(/usr/lib/firefox/firefox:168): dconf-CRITICAL **: 13:42:24.206: unable to create directory '/home/celeryuser/.cache/dconf': Permission denied.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:168): dconf-CRITICAL **: 13:42:24.207: unable to create directory '/home/celeryuser/.cache/dconf': Permission denied.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:168): dconf-CRITICAL **: 13:42:24.209: unable to create directory '/home/celeryuser/.cache/dconf': Permission denied.  dconf will not work properly.
+1577799805580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqt3hP7"
+1577799806001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577799806001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577799806001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577799806002	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:307): LIBDBUSMENU-GLIB-WARNING **: 13:43:26.724: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577799807691	Marionette	INFO	Listening on port 34221
+1577799807787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577799807993	Marionette	INFO	Stopped listening on port 34221
+1577799842672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMXfKJS"
+1577799843094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577799843094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577799843094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577799843094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:524): LIBDBUSMENU-GLIB-WARNING **: 13:44:03.858: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577799844651	Marionette	INFO	Listening on port 36453
+1577799844680	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577799845050	Marionette	INFO	Stopped listening on port 36453
+1577800969002	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile25mwkI"
+1577800969431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577800969431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577800969431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577800969431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:761): LIBDBUSMENU-GLIB-WARNING **: 14:02:50.170: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577800970971	Marionette	INFO	Listening on port 41351
+1577800971011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577800971364	Marionette	INFO	Stopped listening on port 41351
+1577801142497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZKVaxC"
+1577801142917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1577801142917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1577801142917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1577801142917	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+
+(firefox:987): LIBDBUSMENU-GLIB-WARNING **: 14:05:43.678: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+1577801144492	Marionette	INFO	Listening on port 33143
+1577801144506	Marionette	WARN	TLS certificate errors will be ignored for this session
+1577801144867	Marionette	INFO	Stopped listening on port 33143

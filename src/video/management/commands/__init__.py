@@ -1,2 +1,2 @@
-from . import test
+from . import vtest
 from . import nexttest

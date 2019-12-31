@@ -3,6 +3,7 @@ from django.test import Client
 from .models import MyVideo, Comment
 from django.contrib.auth.models import User
 from selenium.webdriver.firefox.webdriver import WebDriver
+from selenium import webdriver
 import logging
 
 
@@ -56,21 +57,47 @@ class VideoTestCase(TestCase):
         self.assertEqual(response.context['user'].username, 'testname')
 
 
-class MySelenium(TestCase):
+class MySeleniumLocal(TestCase):
     def setUp(self):
         super().setUp()
         self.selenium = WebDriver()
-        self.selenium.implicitly_wait(10)
-        self.live_server_url = 'http://127.0.0.1:8000/'
+        self.live_server_url = 'http://127.0.1:8000/admin/login/'
 
     def tearDown(self):
         super().tearDown()
         self.selenium.quit()
 
     def test_selenium(self):
-        self.selenium.get(self.live_server_url + 'admin/login/')
+        self.selenium.get(self.live_server_url)
+        logging.warning(self.selenium.title)
         username_input = self.selenium.find_element_by_name('username')
         username_input.send_keys('bogdan')
         password_input = self.selenium.find_element_by_name('password')
         password_input.send_keys('gd0d469s')
-        self.selenium.find_element_by_xpath('//input[@value="Войти"]').click()
+        btn = self.selenium.find_element_by_xpath('//input[@value="Войти"]')
+        btn.click()
+        logging.warning(self.selenium.title)
+
+
+class MySeleniumGlobal(TestCase):
+    def setUp(self):
+        super().setUp()
+        self.selenium = webdriver.Remote(
+            command_executor='http://172.21.0.4:4444/wd/hub',
+            desired_capabilities = {"browserName":'chrome'})
+        self.live_server_url = 'http://185.227.99.68/admin/login/'
+
+    def tearDown(self):
+        super().tearDown()
+        self.selenium.quit()
+
+    def test_selenium(self):
+        self.selenium.get(self.live_server_url)
+        logging.warning(self.selenium.title)
+        username_input = self.selenium.find_element_by_name('username')
+        username_input.send_keys('bogdan')
+        password_input = self.selenium.find_element_by_name('password')
+        password_input.send_keys('gd0d469s')
+        btn = self.selenium.find_element_by_xpath('//input[@value="Log in"]')
+        btn.click()
+        logging.warning(self.selenium.title)
